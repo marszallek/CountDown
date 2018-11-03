@@ -1,0 +1,39 @@
+body
+{
+    background-color: black;
+}
+header
+{
+    text-align: center;
+    color: white;
+    font-size: 200%;
+    margin-top: 20vh;
+    letter-spacing: 1px;
+    font-family: 'Poor Story';
+	padding: 15px;
+}
+#pojemnik
+{
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 50px 50px 50px 50px;
+    box-shadow: 0 0 240px rgb(200, 113, 113);
+    animation-name: shadow;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+
+}
+#Pozostalo
+{
+    text-align: center;
+    margin-top: 10vh;
+    color: blueviolet;
+    font-size: 200%;
+	padding: 15px;
+}
+@keyframes shadow
+{
+    0% {box-shadow: 0 0 240px rgb(200, 113, 113);}
+    50% {box-shadow: 0 0 40px rgb(200, 113, 113);}
+    100% {box-shadow: 0 0 240px rgb(200, 113, 113);}
+}
